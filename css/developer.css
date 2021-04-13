@@ -15,9 +15,7 @@ body {
     color: whitesmoke;
     
 }
-@media (screen) {
-    
-}
+
 main {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -29,6 +27,7 @@ main {
     height: 100%;
 }
 figure{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +35,7 @@ figure{
 figcaption {
     font-size: 2rem;
     font-weight: bold;
-    text-align: center;
+    text-align: initial;
 }
 
 .profile {
@@ -47,15 +46,15 @@ figcaption {
 }
 .left p{
     
-    text-align: center;
-    font-size: 2rem;
+    text-align: initial;
+    font-size: 1.8rem;
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 .nav1{
     display: flex;
     flex-direction: column;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 .nav1:last-child {
     margin-bottom: 2rem;
@@ -66,6 +65,23 @@ nav a {
     text-decoration: none;
     margin-left: 2rem;
     margin-top: 0.5rem;
+}
+nav a:hover {
+    transition-delay: 0.09s;
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+	-webkit-mask-size: 200%;
+	animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+	from {
+	  -webkit-mask-position: 150%;
+	}
+	
+	to {
+	  -webkit-mask-position: -50%;
+	}
+  
 }
 div.right {
     font-size: 3rem;
