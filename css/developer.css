@@ -32,42 +32,6 @@ div.logo img {
     margin: 0 auto;
     
 }
-
-main {
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
-
-.left {
-    background-color: #9a9fa1;
-    opacity: 0.9;
-    height: 100%;
-}
-figure{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-figcaption {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: initial;
-}
-
-.profile {
-    width: 60%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;;
-    border-radius: 100px;
-}
-.left p{
-    display: flex;
-    text-align: center;
-    font-size: 1.8rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-}
 div.nav {
     margin: auto 0;
 }
@@ -101,10 +65,55 @@ nav a:hover {
 	}
   
 }
+main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.left {    
+    background-color:#4d524a;
+    opacity: 0.9;
+    width: 80%;
+    height: 100%;
+    margin: 1rem auto;
+}
+.profile {
+    width: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;;
+    border-radius: 100px;
+}
+figure{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+figcaption {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+figcaption.fig2 {
+    display: flex;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 8rem;
+}
+div.social {
+    display: flex;
+    text-align: center;
+    margin-left: 1rem;
+}
+div.social img{
+    width: 2rem;
+    height: 2rem;
+}
 div.right {
     font-size: 3rem;
     margin: 0 10%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
 }
 .caja {
