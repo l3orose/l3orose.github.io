@@ -9,10 +9,14 @@ html {
 }
 body {
     height: 100vh;
-    background-image: url(../fondobq.jpeg);
+    background-image: url(../img/fondobq.jpeg);
     background-size: cover;
     font-family: 'Old Standard TT', serif;
     color: whitesmoke;
+    
+}
+header {
+    display: flex
     
 }
 
@@ -45,16 +49,17 @@ figcaption {
     border-radius: 100px;
 }
 .left p{
-    
-    text-align: initial;
+    display: flex;
+    text-align: center;
     font-size: 1.8rem;
     margin-left: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 .nav1{
     display: flex;
     flex-direction: column;
     font-size: 1.6rem;
+    padding-bottom: 2rem;
 }
 .nav1:last-child {
     margin-bottom: 2rem;
