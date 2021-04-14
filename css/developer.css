@@ -16,10 +16,10 @@ body {
     
 }
 header {
-    display: flex;
-    
+    display: flex;    
     background-color: #4d524a;
     opacity: 0.9;
+    padding: 1rem 0;
 }
 div.logo {
     width: 30%;
@@ -33,7 +33,7 @@ div.logo img {
     
 }
 div.nav {
-    margin: auto 0;
+    margin-left: 6rem;
 }
 nav.nav-main{
     display: flex;
@@ -48,7 +48,7 @@ a {
     margin-left: 1rem;
     margin-top: 3rem;
 }
-nav a:hover {
+a:hover {
     transition-delay: 0.09s;
 	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
 	-webkit-mask-size: 200%;
